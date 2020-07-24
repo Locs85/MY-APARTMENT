@@ -1,0 +1,245 @@
+doctype
+html(lang="ru")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="css/main.css")
+	body
+		//- NAVBAR
+		section.navbar
+			div.navbar__container
+				div
+					a.navbar__logo(href="#")
+						div.navbar__logo-icon
+						div.navbar__logo-text Моя Квартира
+					div.navbar__dropdown-menu
+						button.navbar__dropdown-btn
+							i.fa.fa-th(aria-hidden="true")
+				div
+					div.navbar__hamburger
+						span
+						span
+						span
+					div.navbar__menu
+						ul
+							li
+								a.navbar__menu-link(href="#")
+									span Правила
+									i.fa.fa-exclamation-circle(aria-hidden="true")
+							li
+								a.navbar__menu-link(href="#")
+									span Инструкция
+									i.fa.fa-question-circle(aria-hidden="true")
+							li
+								a.navbar__menu-link(href="#")
+									span Соглашение
+									i.fa.fa-handshake-o(aria-hidden="true")
+						div.navbar__login
+							a.navbar__login-btn(href="#") Войти
+							a.navbar__login-icon(href="#")
+								i.navbar__login-btn-icon.fa.fa-sign-in(aria-hidden="true")
+		//- NAVBAR
+
+		//- HEADER
+		section.header
+			div.header__container
+				div
+					div.header__card
+						div.header__card-body
+							h1.header__card-title Приложение для решения текущих вопросов по дому онлайн
+							p.header__card-text Поможет решить проблемы жителей дома в режиме реального времени, без дополнительных визитов и звонков в управляющую организацию
+							div.header__card-btns
+								div
+									a.header__card-btn.header__card-btn_rose(href="#") попробовать бесплатно
+								div
+									a.header__card-btn.header__card-btn_image(href="#")
+		//- HEADER
+
+		//- ABOUT
+		section.about
+			div.about__container
+				div
+					div.about__card
+						div.about__card-body
+							div.about__card-image
+								img(src="img/003-mails.svg", alt="")
+							h5.about__card-title Информационная система
+							p.about__card-text для улучшения коммуникации между жителями МКД и управляющей организацией
+				div
+					div.about__card
+						div.about__card-body
+							div.about__card-image
+								img(src="img/002-multiple-users.svg", alt="")
+							h5.about__card-title Обменивайтесь
+							p.about__card-text с жителями МКД информацией и оперативно решайте вопросы управления МКД
+				div
+					div.about__card
+						div.about__card-body
+							div.about__card-image
+								img(src="img/001-conversation.svg", alt="")
+							h5.about__card-title Общайтесь
+							p.about__card-text с управляющей организацией и ТСЖ, участвуйте в управлении своим домом
+		//- ABOUT
+
+		//- WHO CAN USE
+		section.who-can-use
+			div.who-can-use__container
+				div.who-can-use__caption
+					div.who-can-use__caption-text Кто может пользоваться
+					div.who-can-use__caption-users
+						div.who-can-use__caption-line
+						div.who-can-use__caption-icon
+				div.who-can-use__block
+					div.who-can-use__block-image-col
+						div.who-can-use__block-image
+							img.mkd(src="img/img_mnogokvartir.svg", alt="")
+					div.who-can-use__block-card-col
+						div.who-can-use__block-card-container
+							div.who-can-use__block-card
+								div.who-can-use__block-card-body
+									h5.who-can-use__block-card-title Жители многоквартирных домов
+									ul
+										li Получение сведений о квартире, доме, лицевом счёте и управляющей организации
+										li Отправка обращений или вопроса в управляющую организацию, ТСЖ или ЖСК
+										li Передача показаний счётчиков
+										li Вызов аварийной службы
+										li Запись на приём к руководителю управляющей организации
+										li Новости дома и района
+										li Публикация объявлений для жителей вашего дома
+										li Отправка заявок на устранение проблемы и оценка качества её выполнения
+										li Организация совместных мероприятий с управляющей организацией
+									div.who-can-use__block-card-btns
+										a.who-can-use__block-card-btn(href="#") зарегистрировать личный кабинет
+				div.who-can-use__block
+					div.who-can-use__block-card-col
+						div.who-can-use__block-card-container
+							div.who-can-use__block-card
+								div.who-can-use__block-card-body
+									h5.who-can-use__block-card-title Управляющие организации и ТСЖ
+									ul
+										li Быстрое и надёжное информирование жителей МКД
+										li Работа с обращениями
+										li Возможность прикрепления фото- и видеоматериалов
+										li Получение заявок на выполнение работ
+										li Обратная связь от жителей МКД
+										li Контроль потребления коммуналных ресурсов
+										li Предложение дополнительных платных услуг УО
+										li Размещение новостей и отчётов
+										li Автоматическая синхронизация вашего сайта с ГИС ЖКХ
+										li Приём оплаты за ЖКУ
+									div.who-can-use__block-card-btns
+										a.who-can-use__block-card-btn(href="#") зарегистрироваться
+					div.who-can-use__block-image-col
+						div.who-can-use__block-image
+							img.uo-tsj(src="img/img_upr_company.svg", alt="")
+		//- WHO CAN USE
+
+		//- FOOTER
+		section.footer
+			div.footer__blocks
+				div.footer__container
+					div
+						div.footer__blocks-btns
+							div
+								a.footer__blocks-btns-lk(href="#") Личный кабинет
+							div
+								a.footer__blocks-btns-question(href="#") Задать вопрос
+							div
+								a.footer__blocks-btns-email(href="#") Письмо директору
+							div
+								a.footer__blocks-btns-sitemap(href="#")
+									i.fa.fa-sitemap(aria-hidden="true")
+					div
+						div.footer__blocks-list
+							h5 Компания
+							ul
+								li
+									a(href="#") О нас
+								li
+									a(href="#") Команда
+								li
+									a(href="#") Работа у нас
+								li
+									a(href="#") Часто задаваемые вопросы
+								li
+									a(href="#") Материалы для СМИ
+								li
+									a(href="#") Официальные документы
+					div
+						div.footer__blocks-list
+							h5 Услуги
+							ul
+								li
+									a(href="#") ГИС ЖКХ
+								li
+									a(href="#") Реформа ЖКХ
+								li
+									a(href="#") Снижение ОДН
+								li
+									a(href="#") Проведение ОСС
+								li
+									a(href="#") Сайт для УК/ТСЖ
+								li
+									a(href="#") Юридическая поддержка
+					div
+						div.footer__blocks-list
+							h5 Полезные сервисы
+							ul
+								li
+									a(href="#") Портал
+								li
+									a(href="#") Сервис «ОСС на 100%»
+								li
+									a(href="#") Сообщество «Про ЖКХ»
+								li
+									a(href="#") Онлайн-школа ЖКХ
+								li
+									a(href="#") Лицензионный тест УК
+								li
+									a(href="#") Новый вебинар для УК/ТСЖ
+			div.footer__bottom
+				div.footer__container
+					div
+						div.footer__bottom-social
+							ul
+								li
+									a(href="#")
+										img(src="img/vk.svg", alt="")
+								li
+									a(href="#")
+										img(src="img/facebook.svg", alt="")
+								li
+									a(href="#")
+										img(src="img/odnoklassniki.svg", alt="")
+								li
+									a(href="#")
+										img(src="img/youtube.svg", alt="")
+								li
+									a(href="#")
+										img(src="img/twitter.svg", alt="")
+								li
+									a(href="#")
+										img(src="img/viber.svg", alt="")
+								li
+									a(href="#")
+										img(src="img/telegram.svg", alt="")
+								li
+									a(href="#")
+										img(src="img/yandex-zen.png", alt="")
+					div
+						div.footer__bottom-email
+							p Наша почта:
+							a(href="mailto:mail@roskvartal.ru") mail@roskvartal.ru
+					div
+						div.footer__bottom-phone
+							div
+								p Бесплатный звонок <br />по всей территории России
+							div
+								div.footer__bottom-phone-number 8 800 500-65-61
+					div
+						div.footer__bottom-btn
+							a(href="#") Заказать звонок
+		//- FOOTER
+		
+		script(src="js/bundle.js")
+

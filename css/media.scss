@@ -1,0 +1,491 @@
+@media (max-width: 1500px) {
+	// WRAPPER
+	.wrapper {
+		&__page {
+			width: 85%;
+		}
+	}
+	// WRAPPER
+	// HEADER
+	.header {
+		&__container {
+			width: 85%;
+		}
+		&__card {
+			width: 65%;
+		}
+	}
+	// HEADER
+
+	// ABOUT
+	.about {
+		&__container {
+			width: 85%;
+		}
+	}
+	// ABOUT
+
+	// WHO CAN USE
+	.who-can-use {
+		&__container {
+			width: 85%;
+		}
+	}
+	// WHO CAN USE
+	// FOOTER
+	.footer {
+		&__container {
+			width: 85%;
+		}
+	}
+	// FOOTER
+}
+@media (max-width: 1400px) {
+	// WRAPPER
+	.wrapper {
+		&__page {
+			width: 90%;
+		}
+	}
+	// WRAPPER
+	// HEADER
+	.header {
+		&__container {
+			width: 90%;
+		}
+	}
+	// HEADER
+	// ABOUT
+	.about {
+		&__container {
+			width: 90%;
+		}
+	}
+	// ABOUT
+	// WHO CAN USE
+	.who-can-use {
+		&__container {
+			width: 90%;
+		}
+		&__block {
+			&-image {
+				img {
+					&.uo-tsj {
+						height: 480px;
+					}
+				}
+			}
+		}
+	}
+	// WHO CAN USE
+	// FOOTER
+	.footer {
+		&__container {
+			width: 90%;
+		}
+		&__bottom {
+			&-phone {
+				&-number {
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+	// FOOTER
+}
+@media (max-width: 1300px) {
+	// WRAPPER
+	.wrapper {
+		&__page {
+			width: 95%;
+		}
+	}
+	// WRAPPER
+	// HEADER
+	.header {
+		&__container {
+			width: 95%;
+		}
+		&__card {
+			width: 65%;
+		}
+	}
+	// HEADER
+	// ABOUT
+	.about {
+		&__container {
+			width: 95%;
+		}
+	}
+	// ABOUT
+	// WHO CAN USE
+	.who-can-use {
+		&__container {
+			width: 95%;
+		}
+	}
+	// WHO CAN USE
+	// FOOTER
+	.footer {
+		&__container {
+			width: 95%;
+		}
+		&__bottom {
+			&-phone {
+				&-number {
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+	// FOOTER
+}
+@media (max-width: 1200px) {
+	// WHO CAN USE
+	.who-can-use {
+		&__block {
+			&-image {
+				overflow-x: hidden;
+			}
+		}
+	}
+	// WHO CAN USE
+	// FOOTER
+	.footer {
+		&__bottom {
+			&>div {
+				flex-direction: column;
+				align-items: center;
+				&>div {
+					margin-bottom: 1rem;
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+			&-email {
+				text-align: center;
+			}
+			&-phone {
+				flex-direction: column;
+				align-items: center;
+				p {
+					text-align: center;
+				}
+				&-number {
+					text-align: center;
+				}
+			}
+		}
+	}
+	// FOOTER
+}
+@media (max-width: 992px) {
+	// WRAPPER
+	.wrapper {
+		&__page {
+			width: 90%;
+		}
+	}
+	// WRAPPER
+	// NAVBAR
+	.navbar {
+		&_simple {
+			.navbar__container {
+				align-items: center;
+			}
+		}
+	}
+	// NAVBAR
+	// HEADER
+	.header {
+		&__container {
+			width: 90%;
+		}
+		&__card {
+			width: 70%;
+		}
+	}
+	// HEADER
+	// ABOUT
+	.about {
+		&__container {
+			flex-direction: column;
+			width: 90%;
+			&>div {
+				margin-bottom: 1rem;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	// ABOUT
+	// WHO CAN USE
+	.who-can-use {
+		&__container {
+			width: 90%;
+		}
+	}
+	// WHO CAN USE
+	// FOOTER
+	.footer {
+		&__blocks {
+			&>div {
+				flex-direction: column;
+				align-items: center;
+			}
+			&-btns {
+				align-items: center;
+				text-align: center;
+			}
+			&-list {
+				h5 {
+					text-align: center;
+				}
+				ul {
+					text-align: center;
+				}
+			}
+		}
+	}
+	// FOOTER
+}
+@media (max-width: 900px) {
+	// NAVBAR
+	.navbar {
+		position: relative;
+		&__container {
+			width: 92%;
+		}
+		&__hamburger {
+			display: block;
+		}
+		&__menu {
+			display: none;
+			justify-content: space-between;
+			top: 79px;
+			left: 0;
+			position: absolute;
+			width: 100%;
+			background: #EFF9FF;
+			padding: 1.1rem 1.5rem;
+			z-index: 9999;
+		}
+		&__dropdown-btn {
+			display: none;
+		}
+	}
+	// NAVBAR
+	// WHO CAN USE
+	.who-can-use {
+		&__block {
+			flex-direction: column;
+			margin: 2rem 0;
+			align-items: center;
+			&:nth-child(3n) {
+				flex-direction: column-reverse;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+			&-card {
+				&-title {
+					text-align: center;
+				}
+				&-btns {
+					justify-content: center;
+				}
+			}
+			&-image-col {
+				width: 90%;
+			}
+			&-card-col {
+				width: 90%;
+			}
+			&-image {
+				display: -webkit-box;
+				display: -moz-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+				justify-content: center;
+				margin-bottom: 1.5rem;
+			}
+			
+		}
+	}
+	// WHO CAN USE
+}
+@media (max-width: 600px) {
+	// NAVBAR
+	.navbar {
+		&__menu {
+			&>ul {
+				li {
+					a {
+						&>span {
+							display: none;
+						}
+						i {
+							display: block;
+						}
+					}
+				}
+			}
+
+		}
+		&__login {
+			&-btn {
+				display: none;
+			}
+			&-icon {
+				display: block;
+			}
+		}
+	}
+	// NAVBAR
+}
+@media (max-width: 768px) {
+	// HEADER
+	.header {
+		&__container {
+			width: 95%;
+		}
+		&__card {
+			width: 90%;
+		}
+	}
+	// HEADER
+	// WHO CAN USE
+	.who-can-use {
+		&__block {
+			&-image {
+				img {
+					&.mkd {
+						height: 500px;
+					}
+					&.uo-tsj {
+						height: 500px;
+					}
+				}
+			}
+		}
+	}
+	// WHO CAN USE
+}
+@media (max-width: 568px) {
+	// WRAPPER
+	.wrapper {
+		padding: 1rem 0;
+		&__page {
+			width: 95%;
+			padding: 1.875rem 1.2rem;
+		}
+	}
+	// WRAPPER
+	// ARTICLE CONTENT
+	.article-caption {
+		&__text {
+			margin-top: 1.5rem;
+		}
+	}
+	// ARTICLE CONTENT
+	// NAVBAR
+	.navbar {
+		&__container {
+			width: 90%;
+		}
+	}
+	// NAVBAR
+	// HEADER
+	.header {
+		&__card {
+			width: 100%;
+			&-title {
+				text-align: center;
+				font-size: 2rem;
+			}
+			&-text {
+				text-align: center;
+			}
+			&-btns {
+				flex-direction: column;
+				align-items: center;
+				&>div {
+					flex: 1;
+					margin-bottom: 1rem;
+					width: auto;
+
+				}
+			}
+			&-btn {
+				font-size: 0.700rem;
+				&_rose {
+					width: 100%;
+					margin-right: 0;
+					padding: 1rem;
+				}
+				&_image {
+					display: block;
+					width: 100%;
+					background-size: 120%;
+					padding: 1rem;
+				}
+			}
+		}
+	}
+	// HEADER
+	// WHO CAN USE
+	.who-can-use {
+		&__caption {
+			&-text {
+				font-size: 1.8rem;
+			}
+			&-users {
+				min-width: 100%
+			}
+		}
+		&__block {
+			&-image {
+				img {
+					&.mkd {
+						height: 400px;
+					}
+					&.uo-tsj {
+						height: 400px;
+					}
+				}
+			}
+			&-card {
+				&-btn {
+					font-size: 0.700rem;
+				}
+			}
+		}
+	}
+	// WHO CAN USE
+	// FOOTER
+	.footer {
+		&__blocks {
+			&-btns {
+				&-lk {
+					font-size: 1.100rem;
+				}
+			}
+		}
+		&__bottom {
+			&-social {
+				ul {
+					flex-direction: column;
+					align-items: center;
+					&>li {
+						margin-right: 0;
+						margin-bottom: 1rem;
+					}
+				}
+			}
+		}
+	}
+	// FOOTER
+}
